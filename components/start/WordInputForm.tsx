@@ -22,7 +22,7 @@ export default function WordInputForm() {
 
   const formSubmitHandler = (e: FormEvent) => {
     e.preventDefault();
-    console.log("입력문자", letters);
+    console.log("입력문자", letters.join(""));
   };
 
   return (
