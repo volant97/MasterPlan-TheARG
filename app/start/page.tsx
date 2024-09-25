@@ -1,4 +1,4 @@
-import WordInput from "@/components/start/WordInput";
+import WordInputForm from "@/components/start/WordInputForm";
 
 export default function Start() {
   return (
@@ -13,14 +13,9 @@ export default function Start() {
           되실 당신을 기다리고 있었습니다.
         </p>
         <p>새로운 세계를 맞이할 준비가 되셨나요?</p>
-        <p>위대한 시작을 외쳐보겠습니다.</p>
+        <p>위대한 시작을 외쳐주세요!</p>
       </div>
-      <div className="flex justify-center gap-4">
-        <WordInput />
-        <WordInput />
-        <WordInput />
-        <WordInput />
-      </div>
+      <WordInputForm />
     </div>
   );
 }
